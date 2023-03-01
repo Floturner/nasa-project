@@ -1,10 +1,10 @@
 const express = require('express');
-const { getAllLaunches, addNewLaunch, abortLaunch } = require('./launches.controller');
+const { httpGetAllLaunches, httpAddNewLaunch, httpAbortLaunch } = require('./launches.controller');
 
 const router = express.Router();
 
-router.get('/', getAllLaunches);
-router.post('/', addNewLaunch);
-router.delete('/:id', abortLaunch);
+router.get('/', httpGetAllLaunches);
+router.post('/', httpAddNewLaunch);
+router.delete('/:id', httpAbortLaunch);
 
 module.exports = router;

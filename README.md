@@ -1,6 +1,10 @@
 # nasa-project
 
-This is a basic fullstack Node.js and React Nasa project app.
+This is a fullstack Node.js and React NASA Mission Control app.
+
+## Get started
+
+In the server directory, copy and paste `.env.example` as `.env` and fill in config variables.
 
 ## Available Scripts
 
