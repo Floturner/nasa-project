@@ -13,7 +13,7 @@ describe('Planets API', () => {
 
 	describe('GET /planets', () => {
 		test('should respond with 200 success', async () => {
-			await request(app).get('/planets').expect('Content-Type', /json/).expect(200);
+			await request(app).get('/v1/planets').expect('Content-Type', /json/).expect(200);
 		});
 	});
 });
