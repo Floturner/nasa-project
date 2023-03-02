@@ -2,7 +2,7 @@
 	"name": "nasa-project-api",
 	"version": "1.0.0",
 	"description": "NASA Mission Control API",
-	"main": "server.js",
+	"main": "src/server.js",
 	"private": true,
 	"scripts": {
 		"test": "jest",
