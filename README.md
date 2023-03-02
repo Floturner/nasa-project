@@ -2,6 +2,14 @@
 
 This is a fullstack Node.js and React NASA Mission Control app.
 
+## Screenshots
+
+![Alt text](screenshots/1-launch.png?raw=true "Launch page")
+
+![Alt text](screenshots/2-upcoming.png?raw=true "Upcoming page")
+
+![Alt text](screenshots/3-history.png?raw=true "History page")
+
 ## Get started
 
 In the server directory, copy and paste `.env.example` as `.env` and fill in config variables.
