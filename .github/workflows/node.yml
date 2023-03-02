@@ -2,18 +2,24 @@ name: NASA Project CI
 on:
   push:
     branches:
-      - "main"
+      - main
   pull_request:
     branches:
-      - "main"
+      - main
 jobs:
   build:
+    env:
+      CI: true
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [16, 18]
     steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js version 18
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - name: Use Node.js version ${{ matrix.node }}
+        uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: ${{ matrix.node }}
       - run: npm install
       - run: npm run build --prefix client
+      - run: npm test
