@@ -10,7 +10,7 @@ In the server directory, copy and paste `.env.example` as `.env` and fill in con
 
 In the server directory, you can run:
 
-### `npm run test`
+### `npm test`
 
 Runs all test suites.
 
@@ -22,7 +22,7 @@ Launches the test runner in the interactive watch mode.
 
 Runs server app on [http://localhost:8000](http://localhost:8000) in development mode.
 
-### `npm run start`
+### `npm start`
 
 Runs server app on [http://localhost:8000](http://localhost:8000) in production mode.
 

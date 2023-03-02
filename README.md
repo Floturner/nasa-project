@@ -18,7 +18,7 @@ In the server directory, copy and paste `.env.example` as `.env` and fill in con
 
 In the project directory, you can run:
 
-### `npm run install`
+### `npm install`
 
 Installs both client and server dependencies.
 
